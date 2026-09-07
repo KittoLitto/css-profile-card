@@ -1,0 +1,65 @@
+/* Inspired by Elegant preset */
+/* font, text color, background color */
+body {
+  font-family: Georgia,serif;
+  color: #ff375f;
+  background: #2d132c;
+}
+
+/* Card container — inspired by Conic Gradient, Rounded Corners & CSS Shaows presets */
+.card {
+  /* width, background-color, padding, border or border-radius, etc. */
+  /* Padding for more distance between the elements and the edges of the box */
+  /* Width determining the width of the box */
+  /* Margins auto centering the box - now necessary due to the resizing*/
+   background: conic-gradient(from 135deg, #85035e, #0e439a);
+    border-radius: 24px;
+	box-shadow: 0px 10px 25px 0px rgba(18,2,26,0.4);
+	padding: 20px;
+	width:50%;
+	margin:auto auto auto auto;
+}
+
+/* Avatar image (works for both layouts) */
+.card-avatar {
+  width: 120px;          /* or 140px for Layout B */
+  height: 120px;
+  border-radius: 50%;    /* makes it a circle */
+  /* For Layout A, center it: */
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* Name — inspired by Elegant preset */
+.card-name {
+  /* font-family, font-size, color, text-align, margin */
+	font-size: 2.8rem;
+	font-weight: 400;
+	letter-spacing: 0.06em;
+	text-align: center;
+}
+
+.card-tagline {
+  /* secondary heading styles */
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.card-bio {
+  /* paragraph styles: font-size, line-height, color */
+	font-size: 1.1rem;
+	line-height: 1.8;
+	text-align: center;
+	opacity: 0.75;
+}
+
+.card-skills {
+  /* list styles */
+  text-align: center;
+}
+
+.card-link {
+  /* link styling: color, text-decoration, padding, background */
+  color: #000000;
+}
